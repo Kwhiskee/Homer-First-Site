@@ -4,13 +4,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', system-ui;
+    font-family: 'Inter', sans-serif;
     color: #243e63;
 }
 
 body {
     max-width: 100vw;
     overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #243e63;
+}
+
+section {
+    padding: 0 32px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #243e63;
 }
 
 .row {
@@ -62,8 +81,17 @@ margin: 0 auto;
 
 
 nav {
-    display: flex;
     padding-top: 32px;
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+
 }
 
 .nav__links {
@@ -73,11 +101,11 @@ nav {
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing:border-box;
     font-family: Inter, sans-serif;
-    color: rgb(36, 62, 99);
-    margin: 0px;
-    padding: 0px;
+    color: #243e63;
 }
 
 .nav__row {
@@ -92,11 +120,10 @@ margin: 0 auto;
 }
 
 * {
+    padding: 0;
     box-sizing:border-box;
     font-family: Inter, sans-serif;
-    color: rgb(36, 62, 99);
-    margin: 0px;
-    padding: 0px;
+    color: #243e63;
 }
 
 .nav__logo {
@@ -107,27 +134,187 @@ margin: 0 auto;
 }
 
 * {
+    padding: 0px;
     box-sizing:border-box;
     font-family: Inter, sans-serif;
-    color: rgb(36, 62, 99);
-    margin: 0px;
-    padding: 0px;
+    color: #243e63;
 }
 
+.nav__logo--img {
+        height: 40px;
+        width: 40px;
+    }
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.nav__logo--title {
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    transition: all 300ms;
+}
+
+.nav__link {
+    margin: 0 24px;
+}
+
+a { 
+    display: inline;
+    text-decoration: none;
+}
+
+* {
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.login {
+    margin-left: 48px;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    transition: all 300ms;
+}
+
+.nav__link { 
+    margin: 0 24px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+* {
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    line-height: 1.5px;
+    border: none;
+    width: auto;
+    transition: all 300ms ease;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    position: relative;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
+.nav__link--primary:after {
+content: "";
+width: 0;
+height: 0;
+}
+
+.nav__link:after {
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background: color #6415ff;
+    transition: all 300ms ease;
+    opacity: 0; 
+}
+
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    line-height: 1.5px;
+    border: none;
+    width: auto;
+    transition: all 300ms ease;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    position: relative;
+}
+
+* {
+    font-family: "Inter",sans-serif;
+    color: #243e63;
+}
 
 .btn__menu {
     background-color: transparent;
+    border: none;
     display: none;
-    border-width: medium;
-    border-style: none;
-    border-color: rgb(36, 62, 99);
-    border-image: none;
-    transition: 300ms
+    transition: 300ms ease;
 }
 
 button {
     cursor: pointer;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
 
 * {
     box-sizing:border-box;
@@ -137,9 +324,26 @@ button {
     padding: 0px;
 }
 
-.btn__menu--svg:hover {
-    filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%);
+.btn__menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+    transition: 300ms ease;
 }
+
+button {
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+
 
 .menu {
     position: fixed;
@@ -159,12 +363,53 @@ button {
     transition: all 300ms ease;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.btn__menu--close {
+    position: fixed;
+    top: 24px;
+    right: 18px;
+}
+
+.btn__menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+    transition: 300ms ease;
+}
+
+button {
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
 .menu__links {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
 }
 
 .menu__link {
@@ -176,6 +421,20 @@ button {
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
 }
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
 
 .menu__link--primary {
     color: #f7fafc;
@@ -202,14 +461,139 @@ button {
 
 HEADER / ABOUT US ↓
 
-*/
-
+*/header {
+    position: relative;
+}
 
 header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.header__description {
+    width: 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.header__description--para {
+    margin: 32px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+* {
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.header__img--wrapper {
+    width: calc(100% - 40%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+.header__img {
+    width: 100%;
+    max-width: 768px;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+.container {
+    padding: 96px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
+
 
 
 /* 
