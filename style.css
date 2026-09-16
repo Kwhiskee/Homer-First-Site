@@ -738,7 +738,7 @@ section {
 }
 
 .row {
-    width: 100%;
+    width: 40%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -764,7 +764,7 @@ flex-wrap: wrap;
 }
 
 .row__narrow {
-    width: 100%;
+    width: 40%;
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -939,8 +939,6 @@ display: flex;
 flex-direction: column;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -948,6 +946,19 @@ flex-direction: column;
     font-family: Inter, sans-serif;
     color: #243e63;
 }
+
+.feature__text {
+    margin-top: 8px;
+    margin-left: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Inter, sans-serif;
+    color: #243e63;
+}
+
 /* 
  
 QUALITY WORK ↓
