@@ -266,11 +266,15 @@ header {
         padding: 96px 0;
     }
 
+    header .row {
+         display: flex;
+        justify-content: space-between;
+    }
+
+
     @media (max-width: 1280px) {
           header .row {
             align-items: flex-end;
-        display: flex;
-        justify-content: space-between;
     }
     }
 
@@ -395,20 +399,6 @@ img {
         display: flex;
         justify-content: flex-end;
     }
-}
-
-.header__img--wrapper {
-    width: calc(100% - 40%);
-}
-
-@media (max-width: 1280px) {
-    .header__img {
-        max-width: 512px;
-    }
-}
-
-.header__img {
-    width: 100%;
 }
 
 main {
