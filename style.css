@@ -2510,6 +2510,7 @@ p {
  @media (max-width: 640px) {
     .footer__columns {
         justify-content: center;
+        row-gap: 40px;
     }
  }
 
@@ -2538,8 +2539,15 @@ p {
  }
 
  @media (max-width: 768px) {
+    .footer__copyright {
+        margin-top: 32px;
+    }
+ }
+
+ @media (max-width: 768px) {
     .footer__socials {
         margin-left: 0px;
+        margin-top: 32px;
     }
  }
 
